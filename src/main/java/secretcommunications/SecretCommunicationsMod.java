@@ -3,6 +3,7 @@ package secretcommunications;
 import secretcommunications.init.SecretCommunicationsModTabs;
 import secretcommunications.init.SecretCommunicationsModMenus;
 import secretcommunications.init.SecretCommunicationsModItems;
+import secretcommunications.init.SecretCommunicationsModEntities;
 import secretcommunications.init.SecretCommunicationsModBlocks;
 import secretcommunications.init.SecretCommunicationsModBlockEntities;
 
@@ -58,6 +59,7 @@ public class SecretCommunicationsMod {
 		SecretCommunicationsModBlocks.REGISTRY.register(bus);
 		SecretCommunicationsModBlockEntities.REGISTRY.register(bus);
 		SecretCommunicationsModItems.REGISTRY.register(bus);
+		SecretCommunicationsModEntities.REGISTRY.register(bus);
 
 		SecretCommunicationsModTabs.REGISTRY.register(bus);
 

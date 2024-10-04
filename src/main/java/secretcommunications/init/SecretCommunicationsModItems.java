@@ -16,6 +16,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class SecretCommunicationsModItems {
 	public static final RegistryObject<Item> ENCRYPTER = block(SecretCommunicationsModBlocks.ENCRYPTER);
 	public static final RegistryObject<Item> BINARY_PASSWORD_CODE = REGISTRY.register("binary_password_code", () -> new BinaryRuleCodeItem());
 	public static final RegistryObject<Item> PASSWORD_BINARY_MAKER = block(SecretCommunicationsModBlocks.PASSWORD_BINARY_MAKER);
+	public static final RegistryObject<Item> COMPHUS_SPAWN_EGG = REGISTRY.register("comphus_spawn_egg", () -> new ForgeSpawnEggItem(SecretCommunicationsModEntities.COMPHUS, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

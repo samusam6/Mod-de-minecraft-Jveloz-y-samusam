@@ -22,5 +22,6 @@ public class SecretCommunicationsModTabs {
 				tabData.accept(SecretCommunicationsModBlocks.PASSWORD_BINARY_MAKER.get().asItem());
 				tabData.accept(SecretCommunicationsModItems.BINARY_PASSWORD_CODE.get());
 				tabData.accept(SecretCommunicationsModBlocks.TEXT_INTERFACE.get().asItem());
+				tabData.accept(SecretCommunicationsModItems.COMPHUS_SPAWN_EGG.get());
 			}).withSearchBar().build());
 }
