@@ -1,0 +1,91 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 169,
+          "y": 99
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 241,
+          "y": 99
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "set the password here",
+          "name": "Password",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": " set ",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Setpasswordbinary"
+          },
+          "width": 25,
+          "height": 20,
+          "x": 201,
+          "y": 98
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_sscxssnysave_the_password_in_a_saf",
+          "text": {
+            "fixedValue": "§cX§nY Save the password in a safe place!!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 201,
+          "y": 93
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

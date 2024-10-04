@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "secret_communications:block/encrypter"
+    },
+    "facing=east": {
+      "model": "secret_communications:block/encrypter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "secret_communications:block/encrypter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "secret_communications:block/encrypter",
+      "y": 270
+    }
+  }
+}

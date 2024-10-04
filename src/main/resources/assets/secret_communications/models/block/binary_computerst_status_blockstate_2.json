@@ -1,0 +1,9 @@
+{
+  "parent": "secret_communications:custom/text_interfaceblock",
+  "textures": {
+    "all": "secret_communications:block/textinterface_bloc",
+    "particle": "secret_communications:block/textinterface_blocoff",
+    "0": "secret_communications:block/textinterface_bloc"
+  },
+  "render_type": "solid"
+}

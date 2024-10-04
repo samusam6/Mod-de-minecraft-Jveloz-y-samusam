@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "secret_communications:block/encrypter",
+    "up": "secret_communications:block/encrypter",
+    "north": "secret_communications:block/encrypter",
+    "east": "secret_communications:block/encrypternorule",
+    "south": "secret_communications:block/encrypter",
+    "west": "secret_communications:block/encrypter",
+    "particle": "secret_communications:block/encrypter"
+  },
+  "render_type": "solid"
+}
