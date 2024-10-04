@@ -26,7 +26,7 @@ public class SecretCommunicationsModEntities {
 	public static final RegistryObject<EntityType<ComphusEntity>> COMPHUS = register("comphus",
 			EntityType.Builder.<ComphusEntity>of(ComphusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ComphusEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
